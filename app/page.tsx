@@ -8,7 +8,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl md:text-2xl text-slate-600 mb-6">
-          Junior Frontend Developer
+          Frontend Developer
         </p>
 
         <p className="max-w-xl text-slate-500 mb-8">
