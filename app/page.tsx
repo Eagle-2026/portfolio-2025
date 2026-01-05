@@ -234,10 +234,7 @@ export default function Home() {
           <a href="https://github.com/Eagle-2026" className="hover:underline">
             GitHub
           </a>
-          <a
-            href="https://www.linkedin.com/in/a-q-9b60233a3/"
-            className="hover:underline"
-          >
+          <a href="linkedin.com/in/a-q-f-9b60233a3" className="hover:underline">
             LinkedIn
           </a>
         </div>
