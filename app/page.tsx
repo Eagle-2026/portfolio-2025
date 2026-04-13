@@ -13,12 +13,7 @@ export default function Home() {
         </p>
 
         <p className="max-w-xl text-slate-500 mb-8">
-          Frontend Developer with 1 year of hands-on experience building
-          production-ready web applications used by real users. Delivered secure
-          authentication systems, responsive dashboards, and scalable UI
-          components. Skilled in modern frontend workflows, UI/UX design
-          principles, React, Next.js, TypeScript, Figma, and GitHub-based
-          development practices. <strong>US Citizen – No sponsorship required.</strong>
+         Frontend Developer with 1+ year of hands-on experience building and deploying production-ready web applications used by real users. Skilled in React, Next.js, and TypeScript with experience in full-stack development, authentication systems, and RESTful APIs. Experienced in GitHub-based workflows including feature branches, pull requests, and incremental deployments. Strong focus on UI/UX design (Figma), performance, and maintainable code.  <strong>US Citizen – No sponsorship required.</strong>
         </p>
 
         <a
