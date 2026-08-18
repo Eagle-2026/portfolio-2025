@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-800">
@@ -8,16 +7,22 @@ export default function Home() {
           Hi, I’m <span className="text-blue-600">A.Qayyum</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-slate-600 mb-6">
-          Frontend Developer
-        </p>
+     <p className="text-xl md:text-2xl text-slate-600 mb-6">
+  <span className="font-bold">FULL-STACK DEVELOPER</span>
+  <span className="block">React • Node.js • Express • MongoDB</span>
+</p>
 
         <p className="max-w-xl text-slate-500 mb-8">
-         Frontend Developer with 1+ year of hands-on experience building and deploying production-ready web applications used by real users. Skilled in React, Next.js, and TypeScript with experience in full-stack development, authentication systems, and RESTful APIs. Experienced in GitHub-based workflows including feature branches, pull requests, and incremental deployments. Strong focus on UI/UX design (Figma), performance, and maintainable code.  <strong>US Citizen – No sponsorship required.</strong>
+          Junior Full-Stack Developer with hands-on experience building and
+          deploying web applications using React, Next.js, TypeScript, Node.js,
+          and RESTful APIs. Experienced with authentication, databases, API
+          integration, responsive UI development, and modern Git/GitHub
+          workflows. Currently focused on building full-stack applications with
+          the MERN stack. <strong>US Citizen – No sponsorship required.</strong>
         </p>
 
         <a
-          href="/frontend_developer_resume.docx"
+          href="/public/FullStack.pdf"
           className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50"
         >
           Download Resume
@@ -29,7 +34,6 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
 
         <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3">
-
           {/* Job Tracker */}
           <div className="bg-white p-6 rounded-xl shadow">
             <h3 className="text-xl font-semibold mb-2">Job Tracker</h3>
@@ -41,33 +45,46 @@ export default function Home() {
             </p>
 
             <p className="text-sm text-slate-500 mb-2">
-              Tech: Next.js App Router, React, Prisma ORM, PostgreSQL, React Query, Auth.js
+              Tech: Next.js App Router, React, Prisma ORM, PostgreSQL, React
+              Query, Auth.js
             </p>
 
             <p className="text-sm text-slate-500 mb-4">
-              Design: Figma (UI/UX wireframes and dashboard planning before development)
+              Design: Figma (UI/UX wireframes and dashboard planning before
+              development)
             </p>
 
             <div className="mt-4 text-sm text-slate-600 space-y-2">
               <p>
-                <strong>Problem:</strong> Needed a secure, real-time way to track job applications.
+                <strong>Problem:</strong> Needed a secure, real-time way to
+                track job applications.
               </p>
               <p>
-                <strong>Solution:</strong> Used Auth.js for authentication and React Query for server data fetching.
+                <strong>Solution:</strong> Used Auth.js for authentication and
+                React Query for server data fetching.
               </p>
               <p>
-                <strong>Outcome:</strong> Deployed to Vercel, used by 50+ weekly users with protected routes and CRUD features.
+                <strong>Outcome:</strong> Deployed to Vercel, used by 50+ weekly
+                users with protected routes and CRUD features.
               </p>
               <p>
-                <strong>Workflow:</strong> Feature branches, pull requests, incremental commits, and deployment verification ensured safe development.
+                <strong>Workflow:</strong> Feature branches, pull requests,
+                incremental commits, and deployment verification ensured safe
+                development.
               </p>
             </div>
 
             <div className="flex gap-3 mt-4">
-              <a href="https://job-tracker-bice.vercel.app" className="text-blue-600 hover:underline">
+              <a
+                href="https://job-tracker-bice.vercel.app"
+                className="text-blue-600 hover:underline"
+              >
                 Live Demo
               </a>
-              <a href="https://github.com/Eagle-2026/job-tracker" className="text-blue-600 hover:underline">
+              <a
+                href="https://github.com/Eagle-2026/job-tracker"
+                className="text-blue-600 hover:underline"
+              >
                 GitHub
               </a>
             </div>
@@ -88,24 +105,34 @@ export default function Home() {
 
             <div className="mt-4 text-sm text-slate-600 space-y-2">
               <p>
-                <strong>Problem:</strong> Default todo apps lose data and lack proper UX.
+                <strong>Problem:</strong> Default todo apps lose data and lack
+                proper UX.
               </p>
               <p>
-                <strong>Solution:</strong> Managed state with Context API and persisted tasks in localStorage.
+                <strong>Solution:</strong> Managed state with Context API and
+                persisted tasks in localStorage.
               </p>
               <p>
-                <strong>Outcome:</strong> Fully responsive app deployed to Vercel.
+                <strong>Outcome:</strong> Fully responsive app deployed to
+                Vercel.
               </p>
               <p>
-                <strong>Workflow:</strong> Incremental improvements with testing and deployment checks.
+                <strong>Workflow:</strong> Incremental improvements with testing
+                and deployment checks.
               </p>
             </div>
 
             <div className="flex gap-3 mt-4">
-              <a href="https://todo-list-two-kappa-56.vercel.app" className="text-blue-600 hover:underline">
+              <a
+                href="https://todo-list-two-kappa-56.vercel.app"
+                className="text-blue-600 hover:underline"
+              >
                 Live Demo
               </a>
-              <a href="https://github.com/Eagle-2026/todo-list-2025" className="text-blue-600 hover:underline">
+              <a
+                href="https://github.com/Eagle-2026/todo-list-2025"
+                className="text-blue-600 hover:underline"
+              >
                 GitHub
               </a>
             </div>
@@ -116,7 +143,8 @@ export default function Home() {
             <h3 className="text-xl font-semibold mb-2">Employment Form</h3>
 
             <p className="text-slate-600 mb-4">
-              Multi-step employment form with validation, saved progress, and responsive design.
+              Multi-step employment form with validation, saved progress, and
+              responsive design.
             </p>
 
             <p className="text-sm text-slate-500 mb-4">
@@ -125,29 +153,38 @@ export default function Home() {
 
             <div className="mt-4 text-sm text-slate-600 space-y-2">
               <p>
-                <strong>Problem:</strong> Multi-step forms often lose progress and confuse users.
+                <strong>Problem:</strong> Multi-step forms often lose progress
+                and confuse users.
               </p>
               <p>
-                <strong>Solution:</strong> Managed form state across steps using Context API and localStorage.
+                <strong>Solution:</strong> Managed form state across steps using
+                Context API and localStorage.
               </p>
               <p>
-                <strong>Outcome:</strong> Smooth multi-step experience with persistent data.
+                <strong>Outcome:</strong> Smooth multi-step experience with
+                persistent data.
               </p>
               <p>
-                <strong>Workflow:</strong> Iterative development with testing and deployment validation.
+                <strong>Workflow:</strong> Iterative development with testing
+                and deployment validation.
               </p>
             </div>
 
             <div className="flex gap-3 mt-4">
-              <a href="https://employment-form-2025.vercel.app" className="text-blue-600 hover:underline">
+              <a
+                href="https://employment-form-2025.vercel.app"
+                className="text-blue-600 hover:underline"
+              >
                 Live Demo
               </a>
-              <a href="https://github.com/Eagle-2026/employment-form-2025" className="text-blue-600 hover:underline">
+              <a
+                href="https://github.com/Eagle-2026/employment-form-2025"
+                className="text-blue-600 hover:underline"
+              >
                 GitHub
               </a>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -156,7 +193,6 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
 
         <div className="max-w-4xl mx-auto space-y-8">
-
           {/* Frontend */}
           <div>
             <h3 className="text-lg font-semibold mb-3 text-center">Frontend</h3>
@@ -164,13 +200,16 @@ export default function Home() {
               {[
                 "HTML",
                 "CSS",
-                "JavaScript",
+                "JavaScript (ES6+)",
+                "TypeScript",
                 "React",
-                "Next.js",
+                "Next.js (App Router)",
                 "Tailwind CSS",
                 "Bootstrap",
                 "React Query",
                 "React Hook Form",
+                "Responsive UI Design",
+                "Form Validation & Error Handling",
               ].map((skill) => (
                 <span key={skill} className="px-4 py-2 bg-slate-100 rounded-lg">
                   {skill}
@@ -184,16 +223,35 @@ export default function Home() {
             <h3 className="text-lg font-semibold mb-3 text-center">Backend</h3>
             <div className="flex flex-wrap justify-center gap-3">
               {[
-                "Auth.js / NextAuth",
                 "Node.js",
-                "REST APIs",
-                "Prisma ORM",
-                "PostgreSQL",
+                "Express.js",
+                "RESTful APIs",
+                "JWT",
+                "Authentication & Authorization",
+                "Auth.js / NextAuth",
+                "API Integration",
               ].map((skill) => (
                 <span key={skill} className="px-4 py-2 bg-slate-100 rounded-lg">
                   {skill}
                 </span>
               ))}
+            </div>
+          </div>
+
+          {/* Database */}
+          <div>
+            <h3 className="text-lg font-semibold mb-3 text-center">Database</h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              {["MongoDB", "Mongoose", "PostgreSQL", "Prisma ORM"].map(
+                (skill) => (
+                  <span
+                    key={skill}
+                    className="px-4 py-2 bg-slate-100 rounded-lg"
+                  >
+                    {skill}
+                  </span>
+                ),
+              )}
             </div>
           </div>
 
@@ -205,8 +263,10 @@ export default function Home() {
 
             <div className="flex flex-wrap justify-center gap-3">
               {[
-                "Git & GitHub",
+                "Git",
+                "GitHub",
                 "Vercel",
+                "Figma (UI/UX Design & Prototyping)",
                 "Jest",
                 "React Testing Library",
                 "GitHub Issues",
@@ -216,10 +276,6 @@ export default function Home() {
                 "Refactoring",
                 "Debugging",
                 "Deployment Verification",
-                "Responsive Design",
-                "Accessibility",
-                "Form Validation",
-                "Figma"
               ].map((skill) => (
                 <span key={skill} className="px-4 py-2 bg-slate-100 rounded-lg">
                   {skill}
@@ -227,7 +283,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-
         </div>
       </section>
 
@@ -242,7 +297,10 @@ export default function Home() {
           <a href="https://github.com/Eagle-2026" className="hover:underline">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/a-q-9b60233a3/" className="hover:underline">
+          <a
+            href="https://www.linkedin.com/in/a-q-9b60233a3/"
+            className="hover:underline"
+          >
             LinkedIn
           </a>
         </div>
